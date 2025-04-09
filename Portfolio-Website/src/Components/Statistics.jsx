@@ -2,6 +2,8 @@ import React from "react";
 import "../Styles/statistics.css";
 
 const Statistics = () => {
+    const isLocalhost = window.location.hostname === "localhost";
+
     return (
         <div className="stats" id="statistics">
             {/* Heading */}
@@ -43,12 +45,19 @@ const Statistics = () => {
                     />
                 </div>
                 <div>
-                    <img
-                        className="github-streak-stats"
-                        id="github-streak-stats"
-                        src="https://github-readme-streak-stats.herokuapp.com?user=Sumit01-tech&theme=vue-dark&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
-                        alt="GitHub streak stats"
-                    />
+                    {isLocalhost ? (
+                        <p style={{ textAlign: "center", color: "#999", fontStyle: "italic" }}>
+                            GitHub Streak Stats not visible on localhost due to CORS. Check on live site.
+                        </p>
+                    ) : (
+                        <img
+                            className="github-streak-stats"
+                            id="github-streak-stats"
+                            referrerPolicy="no-referrer"
+                            src="https://streak-stats.demolab.com/?user=Sumit01-tech&theme=vue-dark&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+                            alt="GitHub streak stats"
+                        />
+                    )}
                 </div>
             </div>
         </div>
