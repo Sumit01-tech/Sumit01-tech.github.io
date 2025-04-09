@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/intro.css';
 import Svgwave from './Svgwave';
-import devlogo from '../images/devloperLogo.svg';
+import devlogo from '../Images/devloperLogo.svg';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaGithub } from 'react-icons/fa';
 import { MdAlternateEmail } from 'react-icons/md';
