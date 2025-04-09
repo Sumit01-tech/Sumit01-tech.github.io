@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/contact.css";
+import "../Styles/contact.css";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiMail } from "react-icons/hi";
 import { MdLocationOn } from "react-icons/md";

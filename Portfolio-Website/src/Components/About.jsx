@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/about.css";
+import "../Styles/about.css";
 import myphoto from "../assets/Sumit_Gourav.jpg";
 import Sumit_Gourav_Resume from "../files/Sumit_Gourav_Resume.pdf";
 

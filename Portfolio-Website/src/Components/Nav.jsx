@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/nav.css";
+import "../Styles/nav.css";
 import Sumit_Gourav_Resume from "../files/Sumit_Gourav_Resume.pdf";
 
 const Nav = () => {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from "../styles/navbar.module.css";
+import styles from "../Styles/navbar.module.css";
 import resume from "../files/Sumit_Gourav_Resume.pdf";
 
 import {
