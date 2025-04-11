@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className={navbg ? styles.active : styles.top_header_div}>
             <nav className={styles.nav}>
                 <div className={styles.title_logo}>
-                    <h1>Saurav</h1>
+                    <h1>Sumit</h1>
                 </div>
 
                 {/* Desktop Menu */}
