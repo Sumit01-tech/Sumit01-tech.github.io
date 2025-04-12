@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/Sumit01-tech/Portfolio-Website.git"
+    "deploy": "gh-pages -d dist -r https://github.com/Sumit01-tech/Sumit01-tech.github.io.git -b gh-pages"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.10.7",
