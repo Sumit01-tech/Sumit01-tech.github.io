@@ -15,7 +15,7 @@ const Nav = () => {
     };
 
     const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/19apmS6fyy2a7BehuZISDJdQlES_HXSJl/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1r3t4W0Wrd-K3gI23LeHjGekyrg4PuWq3/view?usp=sharing", "_blank");
 
         const link = document.createElement("a");
         link.href = Sumit_Gourav_Resume;
