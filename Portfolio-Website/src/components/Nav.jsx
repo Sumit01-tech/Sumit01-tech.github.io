@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Nav.css";
-import Sumit_Gourav_Resume from "../files/Sumit-Gourav-Resume.pdf";
+import Sumit_Gourav_Resume from "../files/Sumit-gourav-resume.pdf";
 
 const Nav = () => {
     const [isActive, setIsActive] = useState(false);
@@ -15,11 +15,11 @@ const Nav = () => {
     };
 
     const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/1SO9Ry3uPdj3JXK8FdCotU9nNm0AlYZZZ/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1ENWoXPLQjKBQut0IG6nNbvmfjYpQqadA/view?usp=sharing", "_blank");
 
         const link = document.createElement("a");
         link.href = Sumit_Gourav_Resume;
-        link.setAttribute("download", "Sumit-Gourav-Resume.pdf");
+        link.setAttribute("download", "Sumit-gourav-resume.pdf");
         link.setAttribute("id", "resume-link-1");
         document.body.appendChild(link);
         link.click();
