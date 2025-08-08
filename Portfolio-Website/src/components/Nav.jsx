@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Nav.css";
-import Sumit_gourav_resume from "../files/Sumit-gourav-resume.pdf";
 
 const Nav = () => {
     const [isActive, setIsActive] = useState(false);
@@ -18,7 +17,7 @@ const Nav = () => {
         window.open("https://drive.google.com/file/d/1ENWoXPLQjKBQut0IG6nNbvmfjYpQqadA/view?usp=sharing", "_blank");
 
         const link = document.createElement("a");
-        link.href = Sumit_gourav_resume;
+        link.href = "/files/Sumit-gourav-resume.pdf";
         link.setAttribute("download", "Sumit-gourav-resume.pdf");
         link.setAttribute("id", "resume-link-1");
         document.body.appendChild(link);

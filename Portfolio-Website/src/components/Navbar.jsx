@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styles from "../styles/Navbar.Module.css";
-import resume from "../files/Sumit-gourav-resume.pdf";
 
 import {
     Menu,
@@ -27,7 +26,7 @@ const Navbar = () => {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = resume;
+        link.href = "/files/Sumit-gourav-resume.pdf";
         link.setAttribute('download', 'resume.pdf');
         document.body.appendChild(link);
         link.click();
