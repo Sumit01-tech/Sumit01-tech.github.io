@@ -1,15 +1,15 @@
 import React from "react";
 import "../styles/About.css";
 import myphoto from "../assets/Sumit_Gourav.jpg";
-import Sumit_Gourav_Resume from "../files/Sumit_Gourav_Resume.pdf";
+import Sumit_Gourav_Resume from "../files/Sumit-Gourav-Resume.pdf";
 
 const About = ({ innerRef, func }) => {
     const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/1r3t4W0Wrd-K3gI23LeHjGekyrg4PuWq3/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1SO9Ry3uPdj3JXK8FdCotU9nNm0AlYZZZ/view?usp=sharing", "_blank");
 
         const link = document.createElement("a");
         link.href = Sumit_Gourav_Resume;
-        link.setAttribute("download", "Sumit_Gourav_Resume.pdf");
+        link.setAttribute("download", "Sumit-Gourav-Resume.pdf");
         link.setAttribute("id", "resume-link-2");
         document.body.appendChild(link);
         link.click();

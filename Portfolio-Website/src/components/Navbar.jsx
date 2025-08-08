@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from "../styles/Navbar.Module.css";
-import resume from "../files/Sumit_Gourav_Resume.pdf";
+import resume from "../files/Sumit-Gourav-Resume.pdf";
 
 import {
     Menu,
